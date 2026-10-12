@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivan Opara | Computer Science Graduate</title>
+  <meta name="description" content="Personal website of Ivan Opara, a Computer Science graduate skilled in HTML, CSS and Python.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <a href="#top" class="logo" aria-label="Ivan Opara, back to top">IO<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Ivan <em>Opara</em></h1>
+        <p class="role">Computer Science graduate &amp; aspiring developer</p>
+        <p class="lead">I build with HTML, CSS and Python, and I enjoy teaching others how technology works. I'm looking for a team where I can grow on real-world projects.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="#gallery" class="btn btn-ghost">See my gallery</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="images/portrait.jpg" alt="Portrait of Ivan Opara in a white shirt, red tie and sunglasses on a tree-lined campus road">
+      </figure>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section reveal" id="about">
+      <h2 class="section-title"><span>01</span> About me</h2>
+      <div class="about-grid">
+        <p>I'm a Computer Science professional with a B.Sc. (Second Class) from Caritas University, Enugu. I have hands-on experience delivering IT lessons and guiding students as they develop their IT skills.</p>
+        <p>I'm skilled in HTML, CSS and Python, with strong communication, critical thinking and multitasking abilities. I'm motivated to bring a collaborative approach to real-world tech projects and grow professionally in the technology industry.</p>
+      </div>
+      <ul class="strengths">
+        <li>Critical Thinking</li>
+        <li>Communication</li>
+        <li>Multitasking</li>
+        <li>IT Instruction &amp; Mentoring</li>
+      </ul>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section reveal" id="skills">
+      <h2 class="section-title"><span>02</span> Skills</h2>
+      <div class="skill-cards">
+        <article class="card">
+          <h3>Technical</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Professional</h3>
+          <ul>
+            <li>Communication</li>
+            <li>Critical Thinking</li>
+            <li>Multitasking</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Teaching</h3>
+          <ul>
+            <li>Delivering IT lessons</li>
+            <li>Guiding students</li>
+            <li>Mentoring</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section reveal" id="education">
+      <h2 class="section-title"><span>03</span> Education</h2>
+      <ol class="timeline">
+        <li>
+          <span class="year">2021 – 2026</span>
+          <h3>Caritas University, Amorji-Nike, Enugu</h3>
+          <p>Bachelor of Science (B.Sc.) in Computer Science, Second Class</p>
+        </li>
+        <li>
+          <span class="year">2018 – 2021</span>
+          <h3>Beautiful Beginning Academy, Abuja</h3>
+          <p>Senior Secondary Certificate Education (SSCE)</p>
+        </li>
+        <li>
+          <span class="year">2015 – 2018</span>
+          <h3>Titsall Global School, Abuja</h3>
+          <p>Basic Education Certificate</p>
+        </li>
+        <li>
+          <span class="year">2010 – 2015</span>
+          <h3>Beautiful Beginning Academy, Abuja</h3>
+          <p>First School Leaving Certificate</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section reveal" id="experience">
+      <h2 class="section-title"><span>04</span> Work experience</h2>
+      <article class="job">
+        <div class="job-head">
+          <h3>Intern</h3>
+          <p>Industrial Training Fund, Abuja</p>
+        </div>
+        <p class="job-sub">HTML, CSS &amp; Python</p>
+        <ul>
+          <li>Delivered IT lessons to students</li>
+          <li>Guided students in developing IT skills</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section reveal" id="gallery">
+      <h2 class="section-title"><span>05</span> Gallery</h2>
+      <p class="section-intro">Moments from campus life, graduation and with friends. Tap a photo to enlarge it.</p>
+      <div class="gallery">
+        <button class="shot tall" data-index="0" aria-label="Open photo: graduation day with project copies">
+          <img src="images/graduation-1.jpg" alt="Two friends in formal wear on a tree-lined road holding blue project copies, one making a peace sign" loading="lazy">
+        </button>
+        <button class="shot" data-index="1" aria-label="Open photo: friends in signed shirts">
+          <img src="images/friends.jpg" alt="Three friends in white shirts covered in colourful signatures, sitting on a red wall" loading="lazy">
+        </button>
+        <button class="shot tall" data-index="2" aria-label="Open photo: graduation day with a friend">
+          <img src="images/graduation-2.jpg" alt="Two friends in formal wear standing on a campus road, one holding a blue project copy" loading="lazy">
+        </button>
+        <button class="shot" data-index="3" aria-label="Open photo: at a craft shop">
+          <img src="images/style.jpg" alt="Man in a navy outfit standing in a shop with woven baskets and plates on the walls" loading="lazy">
+        </button>
+        <button class="shot" data-index="4" aria-label="Open photo: portrait on campus">
+          <img class="top" src="images/portrait.jpg" alt="Portrait of Ivan Opara in a white shirt, red tie and sunglasses on a tree-lined campus road" loading="lazy">
+        </button>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section reveal contact" id="contact">
+      <h2 class="section-title"><span>06</span> Contact</h2>
+      <p class="section-intro">Interested in working together? Reach out.</p>
+      <div class="contact-links">
+        <a href="mailto:Ivanopara4@gmail.com" class="contact-item">
+          <small>Email</small>
+          <strong>Ivanopara4@gmail.com</strong>
+        </a>
+        <a href="tel:+2349164197082" class="contact-item">
+          <small>Phone</small>
+          <strong>0916 419 7082</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Ivan Opara. Built by hand with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous photo">&#8249;</button>
+    <img id="lbImg" src="" alt="">
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next photo">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
